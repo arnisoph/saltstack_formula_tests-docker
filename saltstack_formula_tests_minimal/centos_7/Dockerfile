@@ -1,9 +1,9 @@
 # Based on https://github.com/saltstack/docker-containers
 
-FROM centos:6
+FROM centos:7
 MAINTAINER Arnold Bechtoldt
 
-RUN rpm -Uvh --force https://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
+RUN rpm -Uvh --force https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
 RUN yum install -y libcom_err && yum -y update
 
