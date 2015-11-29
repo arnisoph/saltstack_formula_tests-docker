@@ -1,4 +1,4 @@
-FROM bechtoldt/saltstack_formula_tests:centos_7
+FROM bechtoldt/saltstack_formula_tests:centos_6
 MAINTAINER Arnold Bechtoldt
 
 RUN yum -y update
