@@ -5,7 +5,7 @@ MAINTAINER Arnold Bechtoldt
 
 RUN rpm -Uvh --force http://mirrors.kernel.org/fedora-epel/6/x86_64/epel-release-6-8.noarch.rpm
 
-RUN yum install -y libcom_err && yum update -y
+RUN yum install -y libcom_err && yum -y update
 
 RUN yum -y install --enablerepo=epel \
   curl \
