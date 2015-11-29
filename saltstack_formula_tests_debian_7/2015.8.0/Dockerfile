@@ -1,4 +1,4 @@
-FROM bechtoldt/saltstack_formula_tests_minimal:debian_wheezy
+FROM bechtoldt/saltstack_formula_tests_minimal:debian_7
 MAINTAINER Arnold Bechtoldt
 
 RUN apt-get update -qq && \
