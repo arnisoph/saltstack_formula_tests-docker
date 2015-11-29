@@ -33,6 +33,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -yV -o DPkg::Options::=--forc
   psutils \
   procps \
   python \
+  python-apt \
   virt-what \
   wget
 
