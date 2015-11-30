@@ -1,5 +1,5 @@
 FROM bechtoldt/saltstack_formula_tests:debian_8
-MAINTAINER Arnold Bechtoldt
+MAINTAINER Arnold Bechtoldt <mail@arnoldbechtoldt.com>
 
 RUN apt-get update -qq && \
   apt-get upgrade -yV -o DPkg::Options::=--force-confold
