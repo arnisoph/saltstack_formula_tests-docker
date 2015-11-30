@@ -1,7 +1,7 @@
 # Based on https://github.com/saltstack/docker-containers
 
 FROM debian:jessie
-MAINTAINER Arnold Bechtoldt
+MAINTAINER Arnold Bechtoldt <mail@arnoldbechtoldt.com>
 
 RUN apt-get update -qq
 
