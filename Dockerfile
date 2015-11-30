@@ -10,6 +10,7 @@ RUN yum install -y libcom_err && yum -y update
 RUN yum -y install --enablerepo=epel \
   curl \
   python \
-  wget
+  wget \
+  which
 
 RUN yum clean all; rm -rf /tmp/* /var/tmp/*
