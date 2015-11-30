@@ -1,7 +1,7 @@
 # Based on https://github.com/saltstack/docker-containers
 
 FROM centos:7
-MAINTAINER Arnold Bechtoldt
+MAINTAINER Arnold Bechtoldt <mail@arnoldbechtoldt.com>
 
 RUN rpm -Uvh --force https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
