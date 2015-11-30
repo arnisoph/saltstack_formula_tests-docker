@@ -34,6 +34,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -yV -o DPkg::Options::=--forc
   procps \
   python \
   python-apt \
+  tree \
   virt-what \
   wget
 
