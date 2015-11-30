@@ -1,5 +1,5 @@
 FROM bechtoldt/saltstack_formula_tests:centos_6
-MAINTAINER Arnold Bechtoldt
+MAINTAINER Arnold Bechtoldt <mail@arnoldbechtoldt.com>
 
 RUN yum -y update
 
